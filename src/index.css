@@ -125,6 +125,11 @@ hr.RampBreak--l {
   display: flex;
 }
 
+.RampInputCheckbox--container input {
+  margin-left: -15px;
+  opacity: 0;
+}
+
 .RampInputCheckbox--label {
   border: 1px solid var(--color-light-shade);
   background-color: var(--color-lighter-shade);
@@ -147,10 +152,8 @@ hr.RampBreak--l {
 
 /* Changed the display and made an opacity so it can work on the input tag */
 
-
 .RampInputCheckbox--input {
   display: flex;
-  opacity: 0;
 }
 
 .RampButton {

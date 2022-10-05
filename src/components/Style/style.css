@@ -6,3 +6,13 @@ identifying the problem, have to use (!important) to make a force effect and tha
 .RampInputSelect--dropdown-container {
     position: absolute !important;
 }
+
+
+/* Had to Style the input part on it own */
+
+/* ALso on the index.css have 'RampInputCheckbox--container' a display flex */
+
+.RampInputCheckbox--container input {
+    margin-left: -15px;
+    opacity: 0;
+  }
