@@ -78,6 +78,8 @@ export function InputSelect<TItem>({
           </div>
         )
 
+//   Here is where the dropdown is located, using the class to fix bug 1
+
         function renderItems() {
           if (!isOpen) {
             return null
