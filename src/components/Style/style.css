@@ -1,6 +1,6 @@
 /* NB: Still fixing Bug 1 
 
-identifying the problem, have to use (!important) to make a force effect
+identifying the problem, have to use (!important) to make a force effect and that solves the problem.
 */
 
 .RampInputSelect--dropdown-container {
