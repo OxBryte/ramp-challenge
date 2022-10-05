@@ -1,0 +1,8 @@
+/* NB: Still fixing Bug 1 
+
+identifying the problem, have to use (!important) to make a force effect
+*/
+
+.RampInputSelect--dropdown-container {
+    position: absolute !important;
+}
