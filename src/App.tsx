@@ -66,6 +66,7 @@ export function App() {
             if (newValue === null) {
               return
             }
+            // the statement if is used instead of giving an error it displays all emoloyee details
             else if (newValue.id == "") {
               await loadAllTransactions()
             }
