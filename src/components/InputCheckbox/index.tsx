@@ -1,6 +1,7 @@
 import classNames from "classnames"
 import { useRef } from "react"
 import { InputCheckboxComponent } from "./types"
+import '../Style/style.css'
 
 export const InputCheckbox: InputCheckboxComponent = ({ id, checked, onChange }) => {
   const { current: inputId } = useRef(`RampInputCheckbox-${id}`)

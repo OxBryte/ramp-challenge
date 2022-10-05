@@ -7,6 +7,8 @@ import { useEmployees } from "./hooks/useEmployees"
 import { usePaginatedTransactions } from "./hooks/usePaginatedTransactions"
 import { useTransactionsByEmployee } from "./hooks/useTransactionsByEmployee"
 import { EMPTY_EMPLOYEE } from "./utils/constants"
+import '../src/components/Style/style.css'
+
 
 export function App() {
   const { data: employees, ...employeeUtils } = useEmployees()
