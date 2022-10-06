@@ -71,7 +71,7 @@ export function App() {
               await loadAllTransactions()
             }
             else await loadTransactionsByEmployee(newValue.id)
-            
+            //Here is where it loads the all user details from the mock-data
           }}
         />
 
