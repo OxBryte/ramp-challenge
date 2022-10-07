@@ -26,6 +26,7 @@ export function App() {
     transactionsByEmployeeUtils.invalidateData()
 
     await employeeUtils.fetchAll()
+    // Added a loading false statement here
     setIsLoading(false)
     await paginatedTransactionsUtils.fetchAll()
 
