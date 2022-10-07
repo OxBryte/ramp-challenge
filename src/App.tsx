@@ -68,12 +68,13 @@ export function App() {
             if (newValue === null) {
               return
             }
-            // the statement if is used instead of giving an error it displays all emoloyee details
+            // the statement if is used instead of giving an error it displays all emoloyee details.
             else if (newValue.id == "") {
+              
               await loadAllTransactions()
             }
             else await loadTransactionsByEmployee(newValue.id)
-            //Here is where it loads the all user details from the mock-data
+            //Here is where it loads the all user details from the mock-data.
           }}
         />
 
@@ -91,7 +92,7 @@ export function App() {
               </div>
               <button
                 className="RampButton"
-                // Making the view more button disappear at the end of the data and making it disappear on each filter
+                // Making the view more button disappear at the end of the data and making it disappear on each filter.
 
                 disabled={ 
                   transactionsByEmployee?.length === 0 || 

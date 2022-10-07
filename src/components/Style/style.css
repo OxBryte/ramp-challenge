@@ -1,3 +1,5 @@
+/* Added my custom style */
+
 /* NB: Still fixing Bug 1 
 
 identifying the problem, have to use (!important) to make a force effect and that solves the problem.
@@ -16,3 +18,4 @@ identifying the problem, have to use (!important) to make a force effect and tha
     margin-left: -15px;
     opacity: 0;
   }
+
