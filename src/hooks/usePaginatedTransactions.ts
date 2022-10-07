@@ -26,9 +26,11 @@ export function usePaginatedTransactions(): PaginatedTransactionsResult {
             return response
           }
 
-          // Added the previous response data to be active while its loads more to it 
+          // Added the previous response data to be active while its loads more to it  (Bug 3)
 
-          return { data: [...previousResponse.data, ...response.data], nextPage: response.nextPage }
+          return { data: [...previousResponse.data, 
+            ...response.data],
+             nextPage: response.nextPage }
         })
       }),
     [customFetch, paginatedTransactions, wrappedRequest]
