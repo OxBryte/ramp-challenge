@@ -91,7 +91,13 @@ export function App() {
               </div>
               <button
                 className="RampButton"
-                disabled={paginatedTransactionsUtils.loading}
+                // Making the view more button disappear at the end of the data and making it disappear on each filter
+
+                disabled={ 
+                  transactionsByEmployee?.length === 0 || 
+                  paginatedTransactionsUtils.loading || 
+                  paginatedTransactions?.nextPage == null
+                }
                 onClick={async () => {
                   await loadAllTransactions()
                 }}
